@@ -1,8 +1,7 @@
-## E-Commerce Backend API
+## 🛒E-Commerce Backend API
 
-A RESTful backend service for a basic e-commerce platform built using **Flask** and **MySQL**.  
-The project follows a clean layered architecture separating routing, business logic, and database access.
-
+This project is a backend REST API for a basic e-commerce system built using Flask and MySQL.
+It follows a layered architecture (models, services, routes) and demonstrates core backend concepts such as database design, business logic separation, and API development.
 ---
 
 ## Author
