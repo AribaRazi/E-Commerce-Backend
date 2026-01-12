@@ -1,0 +1,5 @@
+# all these files are ignored by github
+config.py
+__pycache__/
+.env
+main.py
