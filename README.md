@@ -34,6 +34,7 @@ ecom_backend/
 └── README.md
 
 ````
+<img width="366" height="790" alt="Screenshot 2026-01-12 141336" src="https://github.com/user-attachments/assets/aefc9a77-d28e-4886-bbb8-07a59bb52360" />
 
 ---
 
@@ -50,6 +51,7 @@ ecom_backend/
 
 MySQL is used as the relational database.  
 The schema includes the following tables:
+<img width="715" height="222" alt="Screenshot 2026-01-12 141454" src="https://github.com/user-attachments/assets/fa6ef1fd-71d4-43c0-a8c4-38cfad3ba690" />
 
 - `users`
 - `products`
@@ -58,6 +60,7 @@ The schema includes the following tables:
 - `payments`
 
 All table definitions and relationships are available in `schema.sql`.
+
 
 ---
 
@@ -77,8 +80,6 @@ All table definitions and relationships are available in `schema.sql`.
 - `PATCH /payments/<payment_id>` – Update payment status  
 
 ---
-DATABASE TABLES-
-<img width="715" height="222" alt="Screenshot 2026-01-12 141454" src="https://github.com/user-attachments/assets/49c20851-f20f-4488-8709-6ea76aa2c78f" />
 
 
 ## Setup Instructions
@@ -139,6 +140,8 @@ curl -X POST http://127.0.0.1:5000/users ^
 -H "Content-Type: application/json" ^
 -d "{\"name\":\"John\",\"email\":\"john@example.com\",\"password\":\"123456\"}"
 ```
+<img width="1867" height="273" alt="Screenshot 2026-01-12 141844" src="https://github.com/user-attachments/assets/df4ce1ec-9048-48bb-ac7a-8b792abc5ee2" />
+
 
 ### Place Order
 
@@ -147,6 +150,8 @@ curl -X POST http://127.0.0.1:5000/orders ^
 -H "Content-Type: application/json" ^
 -d "{\"user_id\":1,\"items\":[{\"product_id\":1,\"quantity\":2,\"price\":500}]}"
 ```
+<img width="1875" height="234" alt="Screenshot 2026-01-12 142418" src="https://github.com/user-attachments/assets/e6ba033c-6d37-4467-90fd-4d9eff3f86fa" />
+
 
 ### Initiate Payment
 
@@ -155,6 +160,7 @@ curl -X POST http://127.0.0.1:5000/payments ^
 -H "Content-Type: application/json" ^
 -d "{\"order_id\":1,\"payment_method\":\"CARD\"}"
 ```
+<img width="832" height="331" alt="Screenshot 2026-01-12 142724" src="https://github.com/user-attachments/assets/0514f2c6-2752-4c02-a47f-c65cb5d788ba" />
 
 ---
 
