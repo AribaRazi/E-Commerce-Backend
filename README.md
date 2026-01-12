@@ -9,7 +9,11 @@ It follows a layered architecture (models, services, routes) and demonstrates co
 Backend Developer (Python, Flask, MySQL)
 
 ---
+## Project Objective
 
+This project was built to demonstrate backend fundamentals including database schema design, service-based architecture, and REST API development using Flask and MySQL.
+
+---
 ## Tech Stack
 
 - Python
@@ -69,7 +73,7 @@ All table definitions and relationships are available in `schema.sql`.
 ### Users
 - `POST /users` – Register a user  
 - `GET /users/<id>` – Get user by ID  
-- `GET /users/email/<email>` – Get user by email  
+- `GET /users/email/<string:user_email>` – Get user by email  
 
 ### Orders
 - `POST /orders` – Place an order  
