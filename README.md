@@ -1,8 +1,7 @@
 ## 🛒E-Commerce Backend API
--
+
 This project is a backend REST API for a basic e-commerce system built using Flask and MySQL.
 It follows a layered architecture (models, services, routes) and demonstrates core backend concepts such as database design, business logic separation, and API development.
--
 
 ## Author
 
@@ -78,6 +77,9 @@ All table definitions and relationships are available in `schema.sql`.
 - `PATCH /payments/<payment_id>` – Update payment status  
 
 ---
+DATABASE TABLES-
+<img width="715" height="222" alt="Screenshot 2026-01-12 141454" src="https://github.com/user-attachments/assets/49c20851-f20f-4488-8709-6ea76aa2c78f" />
+
 
 ## Setup Instructions
 
